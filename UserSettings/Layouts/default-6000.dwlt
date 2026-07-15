@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -20
-    y: 55
+    x: 8
+    y: 51
     width: 1276
     height: 973
   m_ShowMode: 4
@@ -468,8 +468,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 158
-    y: 91
+    x: 179
+    y: 24
     width: 695
     height: 542
   m_SerializedDataModeController:
@@ -1281,7 +1281,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 5}
     m_SelectedIDs: 12820000
     m_LastClickedID: 33298
-    m_ExpandedIDs: 00000000a681000004820000
+    m_ExpandedIDs: 00000000a6810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
