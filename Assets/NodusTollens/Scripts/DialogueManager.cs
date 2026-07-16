@@ -72,6 +72,10 @@ public class DialogueManager : MonoBehaviour
 
     }
 
+        private Coroutine typing;
+
+    private bool isTyping = false;
+
     void ShowLine()
 
     {
@@ -80,9 +84,33 @@ public class DialogueManager : MonoBehaviour
 
         nameText.text = line.speakerName;
 
-        dialogueText.text = line.sentence;
+        if (typing != null) StopCoroutine(typing);
+
+        typing = StartCoroutine(TypeSentence(line.sentence));
 
         SaveProgress();
+
+    }
+
+    System.Collections.IEnumerator TypeSentence(string sentence)
+
+    {
+
+        isTyping = true;
+
+        dialogueText.text = "";
+
+        foreach (char c in sentence)
+
+        {
+
+            dialogueText.text += c;
+
+            yield return new WaitForSeconds(0.03f);
+
+        }
+
+        isTyping = false;
 
     }
 
@@ -91,6 +119,21 @@ public class DialogueManager : MonoBehaviour
     public void OnAdvanceClicked()
 
     {
+        // Clicking while typing = finish the line instantly instead of advancing
+
+        if (isTyping)
+
+        {
+
+            StopCoroutine(typing);
+
+            dialogueText.text = currentDeck[index].sentence;
+
+            isTyping = false;
+
+            return;
+
+        }
 
         // If choices are on screen, ignore background clicks
 
