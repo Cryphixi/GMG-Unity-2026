@@ -1308,27 +1308,155 @@ MonoBehaviour:
   dialogueText: {fileID: 200443317}
   choicePanel: {fileID: 290156004}
   commonLines:
-  - speakerName: Ace
-    sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum."'
-  - speakerName: Bobby
-    sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum."'
-  - speakerName: Caleb
-    sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum."'
+  - speakerName: Clark
+    sentence: ' "Thank you kindly!" [smile eyes closed sprite] '
+  - speakerName: 
+    sentence: (The gruff manager taps the box before him, glancing up at the detective
+      with a small chuckle.)
+  - speakerName: Clark
+    sentence: '"I''ve known you for years and I never expected you''d be the type
+      to buy an Omunus, Inspector." [brow raised sprite]'
+  - speakerName: Clark
+    sentence: '"In fact, might be the first time I''ve seen you come in here at all.
+      ''Least for yourself." [smile eyes closed sprite]'
+  - speakerName: 
+    sentence: ' (She sure hates to admit it, but Clark is right. Too right.) [his
+      sprite in bg changes to his plain smile sprite]'
+  - speakerName: 
+    sentence: (This is very out of character for Detective Inspector Russo. She's
+      not a gamer, so that's not it. She definitely isn't into new technology ---
+      that's for sure. )
+  - speakerName: 
+    sentence: ' (So why? Why bother? Not like she gets paid much anyway.) '
+  - speakerName: 
+    sentence: (Well --- whatever it is, it's very unlike Laura Russo to buy an expensive
+      virtual reality headset.)
+  - speakerName: Laura
+    sentence: '"There''s lots of things you don''t know about me, Clark." [here,
+      lauras sprite appears for the first time! mc reveal wow]'
+  - speakerName: 
+    sentence: '(The man laughs, raising a brow.) [eyes closed smile sprite]'
+  - speakerName: Clark
+    sentence: '"Right, right. Detectives and their mysteries, ay?" [brow raised sprite]
+
+'
+  - speakerName: Laura
+    sentence: '"You know it." [dry smile sprite]
+
+
+
+'
+  - speakerName: 
+    sentence: ' (Laura glances down at her receipt, wincing internally... 500 Euros...)
+      [hide her sprite]
+
+
+
+'
+  - speakerName: 
+    sentence: ' (She grabs it, forcing a soft smile up at Clark before heading out
+      of the store.)'
+  - speakerName: Clark
+    sentence: '  "Inspector! Ya don''t want a bag?" [yell sprite]'
+  - speakerName: 
+    sentence: '"Nope! Thank you, Clark!" [fade out]'
+  - speakerName: 
+    sentence: '(...) [black screen]'
+  - speakerName: 
+    sentence: ' (Laura steps out past the metal detectors, glancing around the packed
+      parking lot.) [fade back in, parking lot bg1, background ambience of people]'
+  - speakerName: 
+    sentence: (It's not a large area, that's for sure. Despite that, it shocks Laura
+      --- for how small of a town //Regno Azzurro// is, this store's popular.)
+  - speakerName: 
+    sentence: (It's a bit jarring. She usually doesn't bother looking at this place
+      twice, and yet... it's probably one of the town's hottest spots.)
+  - speakerName: Laura
+    sentence: '"..." [show serious sprite]'
+  - speakerName: Laura
+    sentence: '"..." [show squinting, angrier sprite]'
+  - speakerName: Laura
+    sentence: '"Where the hell did I even park?" [same sprite, mouth open alternative]'
+  - speakerName: 
+    sentence: '"..." [show squinting, angrier sprite]'
+  - speakerName: 
+    sentence: (Laura looks to the left, narrowing her tired eyes.)
+  - speakerName: 
+    sentence: (Her car shouldn't be hard to miss --- at least for her. For anyone
+      else, definitely. It's just a beat-up Sedan, like many others...)
+  - speakerName: 
+    sentence: '(Laura shifts the Omunus box to one arm, biting her tongue as she
+      reaches for her pocket.) '
+  - speakerName: 
+    sentence: (...)
+  - speakerName: Laura
+    sentence: ' "Damn it..." [smaller text to signify she''s muttering under her
+      breath]'
+  - speakerName: 
+    sentence: (After some brief struggle, she manages to grab her keys. She readjusts
+      the box --- more comfortably now --- and presses down on the panic button.)
+  - speakerName: 
+    sentence: '(BEEP!) [loud font = loud]'
+  - speakerName: 
+    sentence: '(Oh, it''s to the --- [if you can cut off this line, as if actually
+      cut off.]'
+  - speakerName: Neil
+    sentence: '"Detective!"'
+  - speakerName: Laura
+    sentence: '"Oh, for god''s sake..." " [smaller text to signify she''s muttering
+      under her breath]'
+  - speakerName: Laura
+    sentence: ' "Hey, Neil... Been a while."'
+  - speakerName: Neil
+    sentence: ' "Hey, Neil... Been a while."'
+  - speakerName: Laura
+    sentence: '"Uh, Omunus, but yeah ---" [if you can cut off this line, as if shes
+      actually cut off.]'
+  - speakerName: Neil
+    sentence: ' "Didn''t think you were the type to play games like those... what''s
+      it called?"'
+  - speakerName: Laura
+    sentence: '"From My ---"  [if you can cut off this line, as if shes actually
+      cut off.]'
+  - speakerName: Neil
+    sentence: '"Well, whatever. Cece --- you know Cece, my daug ---"   [if you can
+      cut off this line, as if hes actually cut off.]'
+  - speakerName: Laura
+    sentence: '"Yup."'
+  - speakerName: Neil
+    sentence: ' "Well, she''s been obsessed with that game. She has it on her phone,
+      and she''s been begging me to get her one of... those."'
+  - speakerName: 
+    sentence: (Laura watches the man's gestures --- so dramatic and erratic --- as
+      he continues his spiel.)
+  - speakerName: Neil
+    sentence: '"I''ve been telling her to get a job for it, but she''d rather talk
+      to those little... AI boyfriends.."'
+  - speakerName: Laura
+    sentence: '"Huh."'
+  - speakerName: Laura
+    sentence: ' "Yeah, uh... people have been going crazy for this thing."'
+  - speakerName: 
+    sentence: '(Laura glances down at the box in her hands, taking in the box-art
+      of the Omunus console. This is the special edition that comes with ''From My
+      Reality''s'' bonus content. Outfits or something --- she doesn''t know.) [cutscene,
+      remove sprites and make bg the img of the box]'
+  - speakerName: 
+    sentence: '(... Ugh, this is embarassing to hold...) '
+  - speakerName: 
+    sentence: '(Especially when you''re nearing forty.) '
+  - speakerName: Neil
+    sentence: '[cut back to normal scene]  "They sure have. It seems fun, though.
+      Trust me, if there was a version with just ladies?"'
+  - speakerName: Neil
+    sentence: '"Ha!" [cackle sprite]'
+  - speakerName: Neil
+    sentence: '"My wife would have to pry that thing off me." (smile eyes closed
+      sprite)'
+  - speakerName: Laura
+    sentence: '"..."'
+  - speakerName: Neil
+    sentence: '"..."'
   branchALines:
   - speakerName: David
     sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
