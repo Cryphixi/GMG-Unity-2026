@@ -1457,6 +1457,177 @@ MonoBehaviour:
     sentence: '"..."'
   - speakerName: Neil
     sentence: '"..."'
+  - speakerName: Neil
+    sentence: '"Don''t uh... don''t tell her I said that, yeah?"'
+  - speakerName: Neil
+    sentence: '"I was just kidding."'
+  - speakerName: Laura
+    sentence: '"Uh, yeah... No worries."'
+  - speakerName: Neil
+    sentence: '"..."'
+  - speakerName: Neil
+    sentence: ' "Well! I should be going, heh. Job doesn''t do itself!" '
+  - speakerName: Laura
+    sentence: ' "Uh-huh. Well, see you around, Neil."'
+  - speakerName: 
+    sentence: (Laura watches him chuckle, studying him as he waves and retreats to
+      his car. She glances back down at her keys, hitting the panic button again.)
+  - speakerName: 
+    sentence: '(BEEP!) [loud font = loud]'
+  - speakerName: 
+    sentence: '(Her head jolts to the right --- and her legs quickly follow.) '
+  - speakerName: 
+    sentence: (After a bit of walking in the general direction, she found it! Her
+      dirty, crappy Sedan, parked there in all its glory.)
+  - speakerName: 
+    sentence: '(She walks up to her car, opening the passenger door and placing the
+      box on the seat.) '
+  - speakerName: 
+    sentence: (She glances at the box for a second. Should she put the seatbelt *on*
+      the box? It's stupid.)
+  - speakerName: 
+    sentence: '(Very stupid.) '
+  - speakerName: 
+    sentence: '(...) '
+  - speakerName: 
+    sentence: '(... But also, this thing was expensive.) '
+  - speakerName: 
+    sentence: (No. No, Laura.)
+  - speakerName: 
+    sentence: (Get a grip.)
+  - speakerName: 
+    sentence: (Laura furrows her brows a bit, her lips jutted out as she decides
+      to shut the car door on the box.)
+  - speakerName: 
+    sentence: (She walks around the car, opening the door for herself and settling
+      into the driver's seat.)
+  - speakerName: 
+    sentence: '(The detective taps her fingers against the wheel as she boots up
+      her car, getting ready to drive home.)  [fade out into black]'
+  - speakerName: 
+    sentence: '[a pause before this text if you can! keep the screen black] (The
+      ride home was uneventful. A bit of rain, but nothing note-worthy.)'
+  - speakerName: 
+    sentence: '(It''s a bit embarrassing for Laura, but... admittedly, she''s excited
+      to use this thing. She glances down at the box, grabbing it as she walks to
+      her doorstep.) '
+  - speakerName: 
+    sentence: '[unlocking door sfx if u can] (Laura unlocks the door, letting out
+      a sigh as she shuts it behind her.) '
+  - speakerName: 
+    sentence: '[fade back in into cutscene of her looking at herself in mirror] (She
+      sets the box on her console table, staring at her own reflection.)'
+  - speakerName: 
+    sentence: '[unlocking door sfx if u can] (Laura unlocks the door, letting out
+      a sigh as she shuts it behind her.) '
+  - speakerName: 
+    sentence: '(500 Euros. On this. Ugh...) '
+  - speakerName: 
+    sentence: '(It''s worth it, though.)
+
+'
+  - speakerName: 
+    sentence: "(Maybe she can see why everyone's gone crazy for this crap.) \r\n"
+  - speakerName: 
+    sentence: '(It may be a... *boring* way of passing her free time, but...) '
+  - speakerName: 
+    sentence: '(Laura''s determined to at least learn how this game has ''zombie''-fied
+      so many people.) '
+  - speakerName: 
+    sentence: '[fade out into A comic-style shot of different reviews online, with
+      one of the creepy watercolor filter/overlays over it]
+
+'
+  - speakerName: 
+    sentence: '(Maybe it''s the romance itself.)
+
+'
+  - speakerName: 
+    sentence: (It's hard to ignore someone that's coded to be your best fan. Someone
+      who answers everything you need, all the while coddling you like a baby.)
+  - speakerName: 
+    sentence: '(Maybe because it''s a safe space? You really can talk about anything
+      with these things --- and usually, they''ll offer a shoulder to cry on.) '
+  - speakerName: 
+    sentence: '(And although the shoulder is fake...)
+
+'
+  - speakerName: 
+    sentence: '(It''s still comforting.)
+
+'
+  - speakerName: 
+    sentence: (Whatever it is, 'From My Reality is making people dumber.)
+  - speakerName: 
+    sentence: (They've become more dependent. It's preying on the vulnerable and
+      the lonely.)
+  - speakerName: 
+    sentence: '[Black fade-in into mirror shot of Laura glancing at herself.] (...Inspector
+      Russo doesn''t like that.) '
+  - speakerName: 
+    sentence: (She glances down at the box on the nightstand --- so jarring compared
+      to her typically monotonous home.)
+  - speakerName: Laura
+    sentence: ' "I need a knife for this thing."  [smaller text to signify she''s
+      muttering under her breath]'
+  - speakerName: 
+    sentence: '[black screen timeskip] (It took Laura a long time to set everything
+      up. She had to charge the Omunus, pair the joysticks, set up her account, and
+      then some.)'
+  - speakerName: 
+    sentence: '(To put it simply, she had to wait around an hour before she got to
+      test ''From My Reality.'') '
+  - speakerName: 
+    sentence: '(This is it.) '
+  - speakerName: 
+    sentence: (...)
+  - speakerName: 
+    sentence: (...)
+  - speakerName: 
+    sentence: (..?)
+  - speakerName: Laura
+    sentence: '"Helloooo?"'
+  - speakerName: Laura
+    sentence: '"Why is this thing still bla ---" [cut this dialogue off, glitch filters
+      for this next scene]'
+  - speakerName: 
+    sentence: Loading...
+  - speakerName: 
+    sentence: According to your Omunus account...
+  - speakerName: 
+    sentence: You're Laura, right?
+  - speakerName: Laura
+    sentence: '"Yep."'
+  - speakerName: 
+    sentence: What are your pronouns?
+  - speakerName: Laura
+    sentence: '"Uh... she."'
+  - speakerName: 
+    sentence: Height?
+  - speakerName: Laura
+    sentence: '"5''7."'
+  - speakerName: 
+    sentence: Awesome! Almost done, Laura... select an outfit!
+  - speakerName: Laura
+    sentence: '"Uh... the suit."'
+  - speakerName: 
+    sentence: Last but not least, Laura...
+  - speakerName: 
+    sentence: What's your type? Don't be shy!
+  - speakerName: Laura
+    sentence: '"Uh..."'
+  - speakerName: Laura
+    sentence: '"Anyone. Uh, anything."'
+  - speakerName: 
+    sentence: Not a picky gal, huh?
+  - speakerName: 
+    sentence: Well, Laura...
+  - speakerName: 
+    sentence: We're excited to welcome you to...
+  - speakerName: 
+    sentence: '[cutscene of intro scene]'
+  - speakerName: Laura
+    sentence: '"What the hell..."'
   branchALines:
   - speakerName: David
     sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
