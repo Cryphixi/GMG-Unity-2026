@@ -1,8 +1,12 @@
 using UnityEngine;
 
+using UnityEngine.UI;
+
+using UnityEngine.SceneManagement;
+
 using TMPro;
 
-// One flashcard: who is talking and what they say
+public enum EffectBurstType { None, Glitch, Water }
 
 [System.Serializable]
 
@@ -13,6 +17,22 @@ public class DialogueLine
     public string speakerName;
 
     [TextArea(2, 5)] public string sentence;
+
+    [Header("Art (empty = keep current)")]
+
+    public Sprite characterSprite;
+
+    public bool hideCharacter;
+
+    public Sprite background;
+
+    [Header("Horror effects")]
+
+    public EffectBurstType playEffect;  // one-shot burst on this line
+
+    public Sprite shadeOverlay;         // mood tint that STAYS
+
+    public bool clearShade;             // remove the tint on this line
 
 }
 
@@ -26,27 +46,39 @@ public class DialogueManager : MonoBehaviour
 
     public TMP_Text dialogueText;
 
-    public GameObject choicePanel;   // stays empty until Part 4
+    public GameObject choicePanel;
+
+    public Image characterImage;
+
+    public Image backgroundImage;
+
+    public EffectsManager effects;      // NEW: drag GameManager itself here
 
     [Header("The Flashcard Decks")]
 
-    public DialogueLine[] commonLines;   // everyone sees these
+    public DialogueLine[] commonLines;
 
-    public DialogueLine[] branchALines;  // shown if player picks choice A
+    public DialogueLine[] branchALines;
 
-    public DialogueLine[] branchBLines;  // shown if player picks choice B
+    public DialogueLine[] branchBLines;
+
+    [Header("Ending screen text")]
+
+    public string endingATitle = "ENDING A";
+
+    public string endingBTitle = "ENDING B";
 
     private DialogueLine[] currentDeck;
 
     private int index = 0;
 
-    private int branch = 0; // 0 = common, 1 = A, 2 = B
+    private int branch = 0;
+
+    private bool atEnding = false;
 
     void Start()
 
     {
-
-        // Load save if one exists, otherwise start fresh
 
         branch = PlayerPrefs.GetInt("SavedBranch", 0);
 
@@ -54,7 +86,17 @@ public class DialogueManager : MonoBehaviour
 
         currentDeck = DeckForBranch(branch);
 
+        if (index >= currentDeck.Length) index = 0; // safety if decks shrank
+
         if (choicePanel != null) choicePanel.SetActive(false);
+
+        // SAVE RESTORE: silently replay art/shade from earlier lines
+
+        // so Continue shows the right background, character, and tint
+
+        for (int i = 0; i < index; i++)
+
+            ApplyVisuals(currentDeck[i], false);
 
         ShowLine();
 
@@ -72,9 +114,55 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-        private Coroutine typing;
+    void ApplyVisuals(DialogueLine line, bool includeBurst)
 
-    private bool isTyping = false;
+    {
+
+        if (line.background != null && backgroundImage != null)
+
+            backgroundImage.sprite = line.background;
+
+        if (characterImage != null)
+
+        {
+
+            if (line.hideCharacter)
+
+                characterImage.gameObject.SetActive(false);
+
+            else if (line.characterSprite != null)
+
+            {
+
+                characterImage.sprite = line.characterSprite;
+
+                characterImage.gameObject.SetActive(true);
+
+            }
+
+        }
+
+        if (effects != null)
+
+        {
+
+            if (line.clearShade) effects.ClearShade();
+
+            else if (line.shadeOverlay != null) effects.ShowShade(line.shadeOverlay);
+
+            if (includeBurst)
+
+            {
+
+                if (line.playEffect == EffectBurstType.Glitch) effects.PlayGlitch();
+
+                else if (line.playEffect == EffectBurstType.Water) effects.PlayWater();
+
+            }
+
+        }
+
+    }
 
     void ShowLine()
 
@@ -84,64 +172,37 @@ public class DialogueManager : MonoBehaviour
 
         nameText.text = line.speakerName;
 
-        if (typing != null) StopCoroutine(typing);
+        dialogueText.text = line.sentence;
 
-        typing = StartCoroutine(TypeSentence(line.sentence));
+        ApplyVisuals(line, true);
 
         SaveProgress();
 
     }
 
-    System.Collections.IEnumerator TypeSentence(string sentence)
-
-    {
-
-        isTyping = true;
-
-        dialogueText.text = "";
-
-        foreach (char c in sentence)
-
-        {
-
-            dialogueText.text += c;
-
-            yield return new WaitForSeconds(0.03f);
-
-        }
-
-        isTyping = false;
-
-    }
-
-    // Hooked to the invisible full-screen button
-
     public void OnAdvanceClicked()
 
     {
-        // Clicking while typing = finish the line instantly instead of advancing
 
-        if (isTyping)
+        if (choicePanel != null && choicePanel.activeSelf) return;
+
+        // Clicking on the ending screen: wipe save, back to menu
+
+        if (atEnding)
 
         {
 
-            StopCoroutine(typing);
+            PlayerPrefs.DeleteKey("SavedIndex");
 
-            dialogueText.text = currentDeck[index].sentence;
+            PlayerPrefs.DeleteKey("SavedBranch");
 
-            isTyping = false;
+            SceneManager.LoadScene("MainMenu");
 
             return;
 
         }
 
-        // If choices are on screen, ignore background clicks
-
-        if (choicePanel != null && choicePanel.activeSelf) return;
-
         index++;
-
-        // Ran out of cards in the common deck? Time to choose.
 
         if (branch == 0 && index >= currentDeck.Length)
 
@@ -153,15 +214,17 @@ public class DialogueManager : MonoBehaviour
 
         }
 
-        // Ran out of cards in a branch? That is an ending.
-
         if (index >= currentDeck.Length)
 
         {
 
+            atEnding = true;
+
             nameText.text = "";
 
-            dialogueText.text = "THE END (Branch " + (branch == 1 ? "A" : "B") + ")";
+            dialogueText.text = (branch == 1 ? endingATitle : endingBTitle)
+
+                + "\n\n(click to return to the menu)";
 
             return;
 
@@ -170,8 +233,6 @@ public class DialogueManager : MonoBehaviour
         ShowLine();
 
     }
-
-    // Hooked to the choice buttons in Part 4
 
     public void ChooseBranch(int chosenBranch)
 
@@ -202,4 +263,3 @@ public class DialogueManager : MonoBehaviour
     }
 
 }
-
