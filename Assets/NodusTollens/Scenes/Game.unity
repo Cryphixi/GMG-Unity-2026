@@ -2527,6 +2527,255 @@ MonoBehaviour:
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
+  - speakerName: Victor
+    sentence: '"Yeah, it''s a long story. Don''t worry about it, Laura!"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura nods hesitantly, pressing her lips together awkwardly. 500 euro
+      for this crap.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (While nodding, she catches a glimpse of herself --- if she can call
+      it herself.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: ' "What the ---"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Victor
+    sentence: '"What, you think the outfit question was just for fun?~"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: ' "What do you think? I think it looks great!"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura stays quiet, still looking down at herself. Upon further inspection,
+      her hair is curled, her hands are manicured, and her brand new suit is surprisingly
+      polished.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (She reaches for her hair, twirling it around her finger. It feels
+      the same as always. Straight, dry, and a bit dead.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"What the --- this isn''t me ---"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"WHAT THE HELL DID YOU DO TO ME?"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (For a second, it seems as if Laura's about to beat up all these strings
+      of code.
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Victor
+    sentence: ' "Don''t worry. Your hair is the same in the real world. It sure looks
+      real, right?~"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura lets go of the fake strands, not bothering to reply. She looks
+      around again, just taking everything in.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura lets go of the fake strands, not bothering to reply. She looks
+      around again, just taking everything in.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: ' "Are they mute?"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (The boy holds himself slightly at the question, clearly embarrassed.
+      His name appears in her vision --- like a cloud hovering before him.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: ' "August. Do you speak?"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Victor
+    sentence: ' "Oh, he speaks. He''s not mute --- just shy."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Right."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: August
+    sentence: '"...Welcome."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (This simple greeting is paired with a simple wave. Out of this trio,
+      he's probably the most realistic encounter yet.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Despite that, Laura can't help but find herself disappointed. Sure,
+      the whole purpose of this purchase was to learn and test its limits and break
+      the game from the inside, but...)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Really?)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (This is what everyone's gone crazy for?)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Two people way too excited to meet you, a shy guy, and a white void?)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura snaps out of her thoughts as she hears a slight clank behind
+      her. She turns to a tall, armored knight behind her.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura snaps out of her thoughts as she hears a slight clank behind
+      her. She turns to a tall, armored knight behind her.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (It's certainly an unconventional appearance compared to the other
+      more 'modern' romancables. Their face is covered by shadows, framed by a silver
+      helmet. The only thing visible under said helmet is an eye --- just one.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (An eye staring Laura down, sizing her up like a wolf with its prey.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
   branchALines:
   - speakerName: David
     sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
