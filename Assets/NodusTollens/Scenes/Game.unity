@@ -1215,7 +1215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1026066634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1365,7 +1365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1525243839
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1464,45 +1464,45 @@ MonoBehaviour:
   commonLines:
   - speakerName: Clark
     sentence: ' "Thank you kindly!" [smile eyes closed sprite] '
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 513670334897225390, guid: fc7480eee692ff541868f724d5801419, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
     sentence: (The gruff manager taps the box before him, glancing up at the detective
       with a small chuckle.)
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 2949794678921438717, guid: 2d971393986b7514188d1ea104fdd231, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Clark
     sentence: '"I''ve known you for years and I never expected you''d be the type
       to buy an Omunus, Inspector." [brow raised sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -7420667688293835269, guid: 6599594b1b9f9504497e22af5342fd5c, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
-    shadeOverlay: {fileID: 0}
+    shadeOverlay: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     clearShade: 0
   - speakerName: Clark
     sentence: '"In fact, might be the first time I''ve seen you come in here at all.
       ''Least for yourself." [smile eyes closed sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 513670334897225390, guid: fc7480eee692ff541868f724d5801419, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
     sentence: ' (She sure hates to admit it, but Clark is right. Too right.) [his
       sprite in bg changes to his plain smile sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4744044922728678267, guid: 73a815d654837674496ed70c59aa1ca7, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1512,7 +1512,7 @@ MonoBehaviour:
       that's for sure. )
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1520,7 +1520,7 @@ MonoBehaviour:
     sentence: ' (So why? Why bother? Not like she gets paid much anyway.) '
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1529,7 +1529,7 @@ MonoBehaviour:
       virtual reality headset.)
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1538,15 +1538,15 @@ MonoBehaviour:
       lauras sprite appears for the first time! mc reveal wow]'
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
     sentence: '(The man laughs, raising a brow.) [eyes closed smile sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 2949794678921438717, guid: 2d971393986b7514188d1ea104fdd231, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1554,9 +1554,9 @@ MonoBehaviour:
     sentence: '"Right, right. Detectives and their mysteries, ay?" [brow raised sprite]
 
 '
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -7420667688293835269, guid: 6599594b1b9f9504497e22af5342fd5c, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1568,7 +1568,7 @@ MonoBehaviour:
 '
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1581,7 +1581,7 @@ MonoBehaviour:
 '
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1590,15 +1590,15 @@ MonoBehaviour:
       of the store.)'
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Clark
     sentence: '  "Inspector! Ya don''t want a bag?" [yell sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 6564129248582252230, guid: e62cf96b3683bb24aa3c1491c30d51ee, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1606,7 +1606,7 @@ MonoBehaviour:
     sentence: '"Nope! Thank you, Clark!" [fade out]'
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1773,7 +1773,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: ' "Hey, Neil... Been a while."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4335161177639129098, guid: 050d235147d8b25478ffb549a7b05fde, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1791,7 +1791,7 @@ MonoBehaviour:
   - speakerName: Neil
     sentence: ' "Didn''t think you were the type to play games like those... what''s
       it called?"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4335161177639129098, guid: 050d235147d8b25478ffb549a7b05fde, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1809,7 +1809,7 @@ MonoBehaviour:
   - speakerName: Neil
     sentence: '"Well, whatever. Cece --- you know Cece, my daug ---"   [if you can
       cut off this line, as if hes actually cut off.]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4335161177639129098, guid: 050d235147d8b25478ffb549a7b05fde, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1826,7 +1826,7 @@ MonoBehaviour:
   - speakerName: Neil
     sentence: ' "Well, she''s been obsessed with that game. She has it on her phone,
       and she''s been begging me to get her one of... those."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 8993765481773736607, guid: ee48e3ea742b6644bbacfad0aaef8592, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1844,7 +1844,7 @@ MonoBehaviour:
   - speakerName: Neil
     sentence: '"I''ve been telling her to get a job for it, but she''d rather talk
       to those little... AI boyfriends.."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 8993765481773736607, guid: ee48e3ea742b6644bbacfad0aaef8592, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1860,7 +1860,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Laura
     sentence: ' "Yeah, uh... people have been going crazy for this thing."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4335161177639129098, guid: 050d235147d8b25478ffb549a7b05fde, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1873,7 +1873,7 @@ MonoBehaviour:
       remove sprites and make bg the img of the box]'
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: -1990602861593600658, guid: 0d2bda2172e8e1246919aaea53d6a73a, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1881,7 +1881,7 @@ MonoBehaviour:
     sentence: '(... Ugh, this is embarassing to hold...) '
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: -1990602861593600658, guid: 0d2bda2172e8e1246919aaea53d6a73a, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1889,14 +1889,14 @@ MonoBehaviour:
     sentence: '(Especially when you''re nearing forty.) '
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: -1990602861593600658, guid: 0d2bda2172e8e1246919aaea53d6a73a, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Neil
     sentence: '[cut back to normal scene]  "They sure have. It seems fun, though.
       Trust me, if there was a version with just ladies?"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 5055470349024365830, guid: 095cb8df22d743d4ca14ac7f0a2350c0, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1904,7 +1904,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: '"Ha!" [cackle sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4335161177639129098, guid: 050d235147d8b25478ffb549a7b05fde, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1913,7 +1913,7 @@ MonoBehaviour:
   - speakerName: Neil
     sentence: '"My wife would have to pry that thing off me." (smile eyes closed
       sprite)'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 5055470349024365830, guid: 095cb8df22d743d4ca14ac7f0a2350c0, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1929,7 +1929,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: '"..."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 6601569391073630803, guid: e56caaa61e8e4644b9f43c24bd0c8ab3, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1937,7 +1937,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: '"Don''t uh... don''t tell her I said that, yeah?"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 8993765481773736607, guid: ee48e3ea742b6644bbacfad0aaef8592, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1945,7 +1945,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: '"I was just kidding."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 8993765481773736607, guid: ee48e3ea742b6644bbacfad0aaef8592, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1961,7 +1961,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: '"..."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 6601569391073630803, guid: e56caaa61e8e4644b9f43c24bd0c8ab3, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -2606,8 +2606,8 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
-    playEffect: 0
-    shadeOverlay: {fileID: 0}
+    playEffect: 2
+    shadeOverlay: {fileID: -211373528418176297, guid: b26d35c45f57e5d4281bd7074c05fe72, type: 3}
     clearShade: 0
   - speakerName: 
     sentence: '(It''s not, though.) [no horror effects anymore]'
@@ -2664,7 +2664,7 @@ MonoBehaviour:
     sentence: ' "Oh, no, no... not at all. This is a demo, so... you don''t get to
       see the pretty sights you see in the real game. There''s a lot less of us here,
       too. We''re just a sneak~"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 2510567478156460313, guid: 6975c1ab0ddefa64e83c92517d5b598b, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
