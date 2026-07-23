@@ -2755,8 +2755,6 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Victor
     sentence: '"Yeah, it''s a long story. Don''t worry about it, Laura!"'
-<<<<<<< HEAD
-=======
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
@@ -3012,7 +3010,6 @@ MonoBehaviour:
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
       eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
       in culpa qui officia deserunt mollit anim id est laborum."'
->>>>>>> 6b8d7521c4392d9a93f4bd800f89444a452e578c
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
@@ -3952,8 +3949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d281990f5ddbe74a98189c4902ded6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
 --- !u!114 &1525430230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3987,7 +3982,6 @@ MonoBehaviour:
   - {fileID: -8158526521411138602, guid: 93bcd9ba4849274469772507982e253c, type: 3}
   frameTime: 0.07
   loops: 2
->>>>>>> 6b8d7521c4392d9a93f4bd800f89444a452e578c
 --- !u!1 &1601868164
 GameObject:
   m_ObjectHideFlags: 0
