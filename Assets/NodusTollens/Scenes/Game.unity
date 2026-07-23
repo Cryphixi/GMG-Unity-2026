@@ -583,7 +583,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Choice B
+  m_text: Keep playing.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -980,12 +980,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797330981}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -316.89807, y: -126.43864, z: -0.511503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1525430226}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &901164828
 GameObject:
@@ -1037,7 +1037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1119,7 +1119,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Choice A
+  m_text: Take the headset off.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1215,7 +1215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1026066634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1365,7 +1365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1525243839
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1464,45 +1464,45 @@ MonoBehaviour:
   commonLines:
   - speakerName: Clark
     sentence: ' "Thank you kindly!" [smile eyes closed sprite] '
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 513670334897225390, guid: fc7480eee692ff541868f724d5801419, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
     sentence: (The gruff manager taps the box before him, glancing up at the detective
       with a small chuckle.)
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 2949794678921438717, guid: 2d971393986b7514188d1ea104fdd231, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Clark
     sentence: '"I''ve known you for years and I never expected you''d be the type
       to buy an Omunus, Inspector." [brow raised sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -7420667688293835269, guid: 6599594b1b9f9504497e22af5342fd5c, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
-    shadeOverlay: {fileID: 0}
+    shadeOverlay: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     clearShade: 0
   - speakerName: Clark
     sentence: '"In fact, might be the first time I''ve seen you come in here at all.
       ''Least for yourself." [smile eyes closed sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 513670334897225390, guid: fc7480eee692ff541868f724d5801419, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
     sentence: ' (She sure hates to admit it, but Clark is right. Too right.) [his
       sprite in bg changes to his plain smile sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4744044922728678267, guid: 73a815d654837674496ed70c59aa1ca7, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1512,7 +1512,7 @@ MonoBehaviour:
       that's for sure. )
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1520,7 +1520,7 @@ MonoBehaviour:
     sentence: ' (So why? Why bother? Not like she gets paid much anyway.) '
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1529,7 +1529,7 @@ MonoBehaviour:
       virtual reality headset.)
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1538,15 +1538,15 @@ MonoBehaviour:
       lauras sprite appears for the first time! mc reveal wow]'
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
     sentence: '(The man laughs, raising a brow.) [eyes closed smile sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 2949794678921438717, guid: 2d971393986b7514188d1ea104fdd231, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1554,9 +1554,9 @@ MonoBehaviour:
     sentence: '"Right, right. Detectives and their mysteries, ay?" [brow raised sprite]
 
 '
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -7420667688293835269, guid: 6599594b1b9f9504497e22af5342fd5c, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1568,7 +1568,7 @@ MonoBehaviour:
 '
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1581,7 +1581,7 @@ MonoBehaviour:
 '
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1590,15 +1590,15 @@ MonoBehaviour:
       of the store.)'
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Clark
     sentence: '  "Inspector! Ya don''t want a bag?" [yell sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 6564129248582252230, guid: e62cf96b3683bb24aa3c1491c30d51ee, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1606,7 +1606,7 @@ MonoBehaviour:
     sentence: '"Nope! Thank you, Clark!" [fade out]'
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1773,7 +1773,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: ' "Hey, Neil... Been a while."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4335161177639129098, guid: 050d235147d8b25478ffb549a7b05fde, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1791,7 +1791,7 @@ MonoBehaviour:
   - speakerName: Neil
     sentence: ' "Didn''t think you were the type to play games like those... what''s
       it called?"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4335161177639129098, guid: 050d235147d8b25478ffb549a7b05fde, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1809,7 +1809,7 @@ MonoBehaviour:
   - speakerName: Neil
     sentence: '"Well, whatever. Cece --- you know Cece, my daug ---"   [if you can
       cut off this line, as if hes actually cut off.]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4335161177639129098, guid: 050d235147d8b25478ffb549a7b05fde, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1826,7 +1826,7 @@ MonoBehaviour:
   - speakerName: Neil
     sentence: ' "Well, she''s been obsessed with that game. She has it on her phone,
       and she''s been begging me to get her one of... those."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 8993765481773736607, guid: ee48e3ea742b6644bbacfad0aaef8592, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1844,7 +1844,7 @@ MonoBehaviour:
   - speakerName: Neil
     sentence: '"I''ve been telling her to get a job for it, but she''d rather talk
       to those little... AI boyfriends.."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 8993765481773736607, guid: ee48e3ea742b6644bbacfad0aaef8592, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1860,7 +1860,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Laura
     sentence: ' "Yeah, uh... people have been going crazy for this thing."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4335161177639129098, guid: 050d235147d8b25478ffb549a7b05fde, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1873,7 +1873,7 @@ MonoBehaviour:
       remove sprites and make bg the img of the box]'
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: -1990602861593600658, guid: 0d2bda2172e8e1246919aaea53d6a73a, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1881,7 +1881,7 @@ MonoBehaviour:
     sentence: '(... Ugh, this is embarassing to hold...) '
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: -1990602861593600658, guid: 0d2bda2172e8e1246919aaea53d6a73a, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -1889,14 +1889,14 @@ MonoBehaviour:
     sentence: '(Especially when you''re nearing forty.) '
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: -1990602861593600658, guid: 0d2bda2172e8e1246919aaea53d6a73a, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Neil
     sentence: '[cut back to normal scene]  "They sure have. It seems fun, though.
       Trust me, if there was a version with just ladies?"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 5055470349024365830, guid: 095cb8df22d743d4ca14ac7f0a2350c0, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1904,7 +1904,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: '"Ha!" [cackle sprite]'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 4335161177639129098, guid: 050d235147d8b25478ffb549a7b05fde, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1913,7 +1913,7 @@ MonoBehaviour:
   - speakerName: Neil
     sentence: '"My wife would have to pry that thing off me." (smile eyes closed
       sprite)'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 5055470349024365830, guid: 095cb8df22d743d4ca14ac7f0a2350c0, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1929,7 +1929,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: '"..."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 6601569391073630803, guid: e56caaa61e8e4644b9f43c24bd0c8ab3, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1937,7 +1937,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: '"Don''t uh... don''t tell her I said that, yeah?"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 8993765481773736607, guid: ee48e3ea742b6644bbacfad0aaef8592, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1945,7 +1945,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: '"I was just kidding."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 8993765481773736607, guid: ee48e3ea742b6644bbacfad0aaef8592, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -1961,7 +1961,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Neil
     sentence: '"..."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 6601569391073630803, guid: e56caaa61e8e4644b9f43c24bd0c8ab3, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -2606,8 +2606,8 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
-    playEffect: 0
-    shadeOverlay: {fileID: 0}
+    playEffect: 2
+    shadeOverlay: {fileID: -211373528418176297, guid: b26d35c45f57e5d4281bd7074c05fe72, type: 3}
     clearShade: 0
   - speakerName: 
     sentence: '(It''s not, though.) [no horror effects anymore]'
@@ -2664,7 +2664,7 @@ MonoBehaviour:
     sentence: ' "Oh, no, no... not at all. This is a demo, so... you don''t get to
       see the pretty sights you see in the real game. There''s a lot less of us here,
       too. We''re just a sneak~"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 2510567478156460313, guid: 6975c1ab0ddefa64e83c92517d5b598b, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
@@ -2678,8 +2678,6 @@ MonoBehaviour:
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
-<<<<<<< Updated upstream
-=======
   - speakerName: Victor
     sentence: '"Yeah, it''s a long story. Don''t worry about it, Laura!"'
     characterSprite: {fileID: 0}
@@ -2907,7 +2905,7 @@ MonoBehaviour:
       her. She turns to a tall, armored knight behind her.)
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -2917,7 +2915,7 @@ MonoBehaviour:
       helmet. The only thing visible under said helmet is an eye --- just one.)
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -2925,86 +2923,98 @@ MonoBehaviour:
     sentence: (An eye staring Laura down, sizing her up like a wolf with its prey.)
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Laura
-    sentence: ' "Uh... hey, you."'
+    sentence: '"Uh... hey, you."'
     characterSprite: {fileID: 0}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Victor
     sentence: ' "Oh, look who''s here! That''s our knight in shining armor --- and
-      our coolest demo romancable." [smile]'
-    characterSprite: {fileID: 0}
+      our coolest demo romancable."'
+    characterSprite: {fileID: -6192698332235276044, guid: b82b63b8cdc5043499cd39b2d401c1c1, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Laura
     sentence: '"You guys are just for the demo?"'
-    characterSprite: {fileID: 0}
-    hideCharacter: 0
-    background: {fileID: 0}
+    characterSprite: {fileID: -6192698332235276044, guid: b82b63b8cdc5043499cd39b2d401c1c1, type: 3}
+    hideCharacter: 1
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
     sentence: (Laura expected the knight to reply, but he sort of just... shook his
       head.)
-    characterSprite: {fileID: 0}
-    hideCharacter: 0
-    background: {fileID: 0}
+    characterSprite: {fileID: -7623806447038518484, guid: 921433e968b078145b4135a40d7daf1b, type: 3}
+    hideCharacter: 1
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
-    sentence: (What a weird ratio. Two extroverts, two introverts... in a white void...?)
-    characterSprite: {fileID: 0}
-    hideCharacter: 0
-    background: {fileID: 0}
-    playEffect: 0
-    shadeOverlay: {fileID: 0}
-    clearShade: 0
-  - speakerName: 
-    sentence: (This... sucks. Is she even going to get anywhere with her little 'project?')
-    characterSprite: {fileID: 0}
-    hideCharacter: 0
-    background: {fileID: 0}
-    playEffect: 0
-    shadeOverlay: {fileID: 0}
-    clearShade: 0
-  - speakerName: 
-    sentence: '(What if she just has to talk herself to boredom in this void? It''s
-      not like she can afford to buy the full game anytime soon --- not after the
-      Omunus, anyway.) '
-    characterSprite: {fileID: 0}
-    hideCharacter: 0
-    background: {fileID: 0}
-    playEffect: 0
-    shadeOverlay: {fileID: 0}
-    clearShade: 0
-  - speakerName: 
-    sentence: '(... Should she?)
+    sentence: '(What a weird ratio. Two extroverts, two introverts... in a white
+      void...?)
 
 '
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -7623806447038518484, guid: 921433e968b078145b4135a40d7daf1b, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(This... sucks. Is she even going to get anywhere with her little
+      ''project?'')
+
+'
+    characterSprite: {fileID: -7623806447038518484, guid: 921433e968b078145b4135a40d7daf1b, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (What if she just has to talk herself to boredom in this void? It's
+      not like she can afford to buy the full game anytime soon --- not after the
+      Omunus, anyway.)
+    characterSprite: {fileID: -7623806447038518484, guid: 921433e968b078145b4135a40d7daf1b, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (... Should she?)
+    characterSprite: {fileID: -7623806447038518484, guid: 921433e968b078145b4135a40d7daf1b, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (... Should she?)
+    characterSprite: {fileID: -7623806447038518484, guid: 921433e968b078145b4135a40d7daf1b, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
     sentence: (She's snapped out of thought by the one woman --- who'm the floating
       cloud names 'Emilia.')
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -3012,25 +3022,25 @@ MonoBehaviour:
     sentence: ' "No, no! We''re in the main game too. We''ve just been chosen for
       this demo, since we''re some of the fan favorites. There''s way more of us
       in the whole game!"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -4062895915102423123, guid: a3cdc9c548f3d7c438b0fd6c5038963f, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Laura
-    sentence: '"... Right."'
-    characterSprite: {fileID: 0}
+    sentence: '"...Right."'
+    characterSprite: {fileID: -4062895915102423123, guid: a3cdc9c548f3d7c438b0fd6c5038963f, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Victor
     sentence: ' "Well, Laura... seems you''ve already met ''the demo crew!'' Hehe~"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 2510567478156460313, guid: 6975c1ab0ddefa64e83c92517d5b598b, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
@@ -3039,63 +3049,80 @@ MonoBehaviour:
       once more.)
 
 '
-    characterSprite: {fileID: 0}
-    hideCharacter: 0
-    background: {fileID: 0}
+    characterSprite: {fileID: -4062895915102423123, guid: a3cdc9c548f3d7c438b0fd6c5038963f, type: 3}
+    hideCharacter: 1
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Laura
-    sentence: '"And now I just uh... talk to you?"'
-    characterSprite: {fileID: 0}
-    hideCharacter: 0
-    background: {fileID: 0}
+    sentence: ' "And now I just uh... talk to you?"'
+    characterSprite: {fileID: -8367249249542187473, guid: 6f4f9001b38941541b03e2b83c39e3e9, type: 3}
+    hideCharacter: 1
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: August
     sentence: '"Mhm."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -8367249249542187473, guid: 6f4f9001b38941541b03e2b83c39e3e9, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Laura
     sentence: '"That''s uh..."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -8367249249542187473, guid: 6f4f9001b38941541b03e2b83c39e3e9, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Laura
-    sentence: '"Kind of boring, no?"'
-    characterSprite: {fileID: 0}
+    sentence: ' "Kind of boring, no?"'
+    characterSprite: {fileID: -8367249249542187473, guid: 6f4f9001b38941541b03e2b83c39e3e9, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Victor
     sentence: ' "Is it?~ Trust me, the moment you get a conversation going, it''ll
       pick up!"'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 2510567478156460313, guid: 6975c1ab0ddefa64e83c92517d5b598b, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: Laura
     sentence: '"Right. Uh..."'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 2510567478156460313, guid: 6975c1ab0ddefa64e83c92517d5b598b, type: 3}
     hideCharacter: 0
-    background: {fileID: 0}
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
     sentence: (This is underwhelming. Maybe it's because it's a demo?)
+    characterSprite: {fileID: 2510567478156460313, guid: 6975c1ab0ddefa64e83c92517d5b598b, type: 3}
+    hideCharacter: 1
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Should she just come back tomorrow?)
+    characterSprite: {fileID: 2510567478156460313, guid: 6975c1ab0ddefa64e83c92517d5b598b, type: 3}
+    hideCharacter: 1
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  branchALines:
+  - speakerName: 
+    sentence: "(Laura sighs, taking the Omunus off and tossing it on her couch.)\r"
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
@@ -3103,35 +3130,169 @@ MonoBehaviour:
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
-    sentence: (Should she just come back tomorrow?)
+    sentence: "(Her living room is dim and dark --- not lively and bright like that
+      false world.)\r"
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
->>>>>>> Stashed changes
-  branchALines:
-  - speakerName: David
-    sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum."'
+  - speakerName: 
+    sentence: '(Maybe reality is boring, but...)
+
+      
+
+'
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
-  - speakerName: Everett
-    sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum."'
+  - speakerName: 
+    sentence: '(That game was even worse! Seriously? That''s what took the world
+      by storm?)
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Laura could just go outside and... talk to anyone, for god''s sake!
+      That random person''s probably more interesting than these... strings of code.)
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(It doesn''t matter.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Tomorrow, she can try again. And if she needs to buy the full game,
+      so be it.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura plops on her bed with a sigh, still lost in thought...)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(It''s insane how well that headset simulates life --- it''s not even
+      the game.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (She can see and smell --- and after a few minutes, the discomfort
+      of the headset is gone.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (It all feels real. And seeing her hair and hands so different there
+      from her real ones ---)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Laura glances down at her hair, picking up a strand and twirling
+      it between her fingers.)
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Laura glances down at her hair, picking up a strand and twirling
+      it between her fingers.)
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (The game made her better. Perfect.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: "(Maybe that's another way it fuels insecurity --- another way it targets
+      the vulnerable.)\r\r\n"
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Tomorrow, she works. She can't put that much time into the game then.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (But now, looking at the ceiling, it's all she can think of. Despite
+      its monotony, she can't wait to bring it down. Everything she's learned about
+      that world in these 10 minutes has pissed her off even more.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Somewhere, in between her thoughts and the silence, Laura fell asleep.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (But now, looking at the ceiling, it's all she can think of. Despite
+      its monotony, she can't wait to bring it down. Everything she's learned about
+      that world in these 10 minutes has pissed her off even more.)
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
@@ -3139,34 +3300,270 @@ MonoBehaviour:
     shadeOverlay: {fileID: 0}
     clearShade: 0
   branchBLines:
-  - speakerName: Franko
-    sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  - speakerName: Laura
+    sentence: '"Uh..."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"You."'
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(She points at Emilia before stepping closer.) '
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: ' "Hey, Laura! What''s up?"'
+    characterSprite: {fileID: 4226733911182843422, guid: ddb57923de8fd684ba4d5072cebb7354, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: "(The other characters go silent --- as if the spotlight was on Laura
+      and Emilia.) \r\n"
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"What can I do in this demo?"'
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: '"Well, this demo serves as an introduction. You can get to meet us
+      ---"'
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"I bought this entire console for this game, and this is a demo?"'
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: '"Hehe, yeah, the console comes with a DLC ---"'
+    characterSprite: {fileID: 4226733911182843422, guid: ddb57923de8fd684ba4d5072cebb7354, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 1
+  - speakerName: Laura
+    sentence: '"What the hell is a DLC?"'
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: '"Downloadable content! So this console comes with extra stuff the
+      base game doesn''t have ---"'
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Why doesn''t it say that on the box?"'
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: '"It does, Lau --"'
+    characterSprite: {fileID: -4062895915102423123, guid: a3cdc9c548f3d7c438b0fd6c5038963f, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"What does it even come with?"'
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: ' "Costumes and special cutscenes --- no other device can handle that!"'
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: ' (The air is tense. The other three are gone, and it''s just Laura
+      and Emilia. Emilia''s coded specifically to answer questions, but...)'
+    characterSprite: {fileID: 1412175712351453505, guid: 9e877c3637b597e4b9b3712d7fea8008, type: 3}
+    hideCharacter: 0
+    background: {fileID: 712839913087669466, guid: ec085309d87d3a34ea93a0c6b9f84587, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Laura jumps back, her eyes widening.)  '
+    characterSprite: {fileID: 2146253300292179, guid: 8665d33d9aa9ab843b2fbce0a058d23f, type: 3}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 1
+    shadeOverlay: {fileID: 2321785646828708244, guid: 396cb122775c7fa4c93817914edde9fd, type: 3}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Emilia steps a bit closer, her voice and hand-gestures still cheerful
+      despite... that.)
+
+'
+    characterSprite: {fileID: 2146253300292179, guid: 8665d33d9aa9ab843b2fbce0a058d23f, type: 3}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 1
+    shadeOverlay: {fileID: 2321785646828708244, guid: 396cb122775c7fa4c93817914edde9fd, type: 3}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
       eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum."'
-    characterSprite: {fileID: 0}
+      in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
+      sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+      in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+      enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+      laborum.'
+    characterSprite: {fileID: -4311536293842222422, guid: d4d5bf90f16c6f34a9ccb70009217406, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
-    playEffect: 0
-    shadeOverlay: {fileID: 0}
+    playEffect: 1
+    shadeOverlay: {fileID: -8153937650397287798, guid: 6e497dbf7f6a8da42aaaee81006caf2f, type: 3}
     clearShade: 0
-  - speakerName: Garett
-    sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  - speakerName: Laura
+    sentence: ' "WHAT THE HELL ARE YOU SAYING?!"'
+    characterSprite: {fileID: -4311536293842222422, guid: d4d5bf90f16c6f34a9ccb70009217406, type: 3}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 1
+    shadeOverlay: {fileID: -8153937650397287798, guid: 6e497dbf7f6a8da42aaaee81006caf2f, type: 3}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
       eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum."'
-    characterSprite: {fileID: 0}
+      in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
+      sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+      in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+      enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+      laborum.'
+    characterSprite: {fileID: 8540902582504773128, guid: ae3c5204a56930a468096aa6e7677055, type: 3}
     hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 1
+    shadeOverlay: {fileID: -8153937650397287798, guid: 6e497dbf7f6a8da42aaaee81006caf2f, type: 3}
+    clearShade: 0
+  - speakerName: Victor
+    sentence: ' "Oh, that''s --- not good, actually."'
+    characterSprite: {fileID: -6192698332235276044, guid: b82b63b8cdc5043499cd39b2d401c1c1, type: 3}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 1
+    shadeOverlay: {fileID: -849730883242749213, guid: 8ba4b02c9e9baf241849e9ace6bb3f38, type: 3}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: 
+    characterSprite: {fileID: -5036865574401738583, guid: f0e8eb2c819656540b62dfd85687cffb, type: 3}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 1
+    shadeOverlay: {fileID: -849730883242749213, guid: 8ba4b02c9e9baf241849e9ace6bb3f38, type: 3}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"What the ---"'
+    characterSprite: {fileID: -5036865574401738583, guid: f0e8eb2c819656540b62dfd85687cffb, type: 3}
+    hideCharacter: 1
+    background: {fileID: 0}
+    playEffect: 1
+    shadeOverlay: {fileID: -849730883242749213, guid: 8ba4b02c9e9baf241849e9ace6bb3f38, type: 3}
+    clearShade: 0
+  - speakerName: 
+    sentence: 'Unfortunately, your game has crashed. Try again later.
+
+'
+    characterSprite: {fileID: -5036865574401738583, guid: f0e8eb2c819656540b62dfd85687cffb, type: 3}
+    hideCharacter: 1
     background: {fileID: 0}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
-  endingATitle: ENDING A
-  endingBTitle: ENDING B
+  - speakerName: 
+    sentence: '(The app closes on its own, leaving a hyperventilating Laura to stare
+      at the Omunus main menu. She breathes heavily, taking off the headset and letting
+      it toss to the side.) '
+    characterSprite: {fileID: -5036865574401738583, guid: f0e8eb2c819656540b62dfd85687cffb, type: 3}
+    hideCharacter: 1
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (She was right. Something is wrong with this game --- and it's not
+      just in the demo.)
+    characterSprite: {fileID: -5036865574401738583, guid: f0e8eb2c819656540b62dfd85687cffb, type: 3}
+    hideCharacter: 1
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  endingATitle: See you soon, Laura!
+  endingBTitle: See you tomorrow, Laura!
 --- !u!4 &1525430226
 Transform:
   m_ObjectHideFlags: 0
@@ -3179,7 +3576,8 @@ Transform:
   m_LocalPosition: {x: 316.89807, y: 126.43864, z: 0.511503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 797330984}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1525430227
@@ -3906,5 +4304,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 786642084}
   - {fileID: 1794072690}
-  - {fileID: 797330984}
   - {fileID: 1525430226}
