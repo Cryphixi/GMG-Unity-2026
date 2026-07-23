@@ -52,4 +52,3 @@ public class EffectsManager : MonoBehaviour
         if (shadeImage != null) shadeImage.gameObject.SetActive(false);
     }
 }
-
