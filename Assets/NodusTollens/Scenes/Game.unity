@@ -1539,7 +1539,7 @@ MonoBehaviour:
   effects: {fileID: 1525430230}
   commonLines:
   - speakerName: Clark
-    sentence: ' "Thank you kindly!" [smile eyes closed sprite] '
+    sentence: ' "Thank you kindly!"'
     characterSprite: {fileID: 513670334897225390, guid: fc7480eee692ff541868f724d5801419, type: 3}
     hideCharacter: 0
     background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
@@ -1557,7 +1557,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Clark
     sentence: '"I''ve known you for years and I never expected you''d be the type
-      to buy an Omunus, Inspector." [brow raised sprite]'
+      to buy an Omunus, Inspector."'
     characterSprite: {fileID: -7420667688293835269, guid: 6599594b1b9f9504497e22af5342fd5c, type: 3}
     hideCharacter: 0
     background: {fileID: 0}
@@ -1566,7 +1566,7 @@ MonoBehaviour:
     clearShade: 0
   - speakerName: Clark
     sentence: '"In fact, might be the first time I''ve seen you come in here at all.
-      ''Least for yourself." [smile eyes closed sprite]'
+      ''Least for yourself."'
     characterSprite: {fileID: 513670334897225390, guid: fc7480eee692ff541868f724d5801419, type: 3}
     hideCharacter: 0
     background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
@@ -1574,8 +1574,7 @@ MonoBehaviour:
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
-    sentence: ' (She sure hates to admit it, but Clark is right. Too right.) [his
-      sprite in bg changes to his plain smile sprite]'
+    sentence: ' (She sure hates to admit it, but Clark is right. Too right.)'
     characterSprite: {fileID: 4744044922728678267, guid: 73a815d654837674496ed70c59aa1ca7, type: 3}
     hideCharacter: 0
     background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
@@ -1619,7 +1618,7 @@ MonoBehaviour:
     shadeOverlay: {fileID: 0}
     clearShade: 0
   - speakerName: 
-    sentence: '(The man laughs, raising a brow.) [eyes closed smile sprite]'
+    sentence: (The man laughs, raising a brow.)
     characterSprite: {fileID: 2949794678921438717, guid: 2d971393986b7514188d1ea104fdd231, type: 3}
     hideCharacter: 0
     background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
