@@ -1460,41 +1460,1218 @@ MonoBehaviour:
   choicePanel: {fileID: 290156004}
   characterImage: {fileID: 0}
   backgroundImage: {fileID: 0}
-  effects: {fileID: 1525430229}
+  effects: {fileID: 0}
   commonLines:
-  - speakerName: Ace
-    sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum."'
+  - speakerName: Clark
+    sentence: ' "Thank you kindly!" [smile eyes closed sprite] '
+    characterSprite: {fileID: 513670334897225390, guid: fc7480eee692ff541868f724d5801419, type: 3}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (The gruff manager taps the box before him, glancing up at the detective
+      with a small chuckle.)
+    characterSprite: {fileID: 2949794678921438717, guid: 2d971393986b7514188d1ea104fdd231, type: 3}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Clark
+    sentence: '"I''ve known you for years and I never expected you''d be the type
+      to buy an Omunus, Inspector." [brow raised sprite]'
+    characterSprite: {fileID: -7420667688293835269, guid: 6599594b1b9f9504497e22af5342fd5c, type: 3}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    clearShade: 0
+  - speakerName: Clark
+    sentence: '"In fact, might be the first time I''ve seen you come in here at all.
+      ''Least for yourself." [smile eyes closed sprite]'
+    characterSprite: {fileID: 513670334897225390, guid: fc7480eee692ff541868f724d5801419, type: 3}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: ' (She sure hates to admit it, but Clark is right. Too right.) [his
+      sprite in bg changes to his plain smile sprite]'
+    characterSprite: {fileID: 4744044922728678267, guid: 73a815d654837674496ed70c59aa1ca7, type: 3}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (This is very out of character for Detective Inspector Russo. She's
+      not a gamer, so that's not it. She definitely isn't into new technology ---
+      that's for sure. )
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: ' (So why? Why bother? Not like she gets paid much anyway.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Well --- whatever it is, it's very unlike Laura Russo to buy an expensive
+      virtual reality headset.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"There''s lots of things you don''t know about me, Clark." [here,
+      lauras sprite appears for the first time! mc reveal wow]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(The man laughs, raising a brow.) [eyes closed smile sprite]'
+    characterSprite: {fileID: 2949794678921438717, guid: 2d971393986b7514188d1ea104fdd231, type: 3}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Clark
+    sentence: '"Right, right. Detectives and their mysteries, ay?" [brow raised sprite]
+
+'
+    characterSprite: {fileID: -7420667688293835269, guid: 6599594b1b9f9504497e22af5342fd5c, type: 3}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"You know it." [dry smile sprite]
+
+
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: ' (Laura glances down at her receipt, wincing internally... 500 Euros...)
+      [hide her sprite]
+
+
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: ' (She grabs it, forcing a soft smile up at Clark before heading out
+      of the store.)'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Clark
+    sentence: '  "Inspector! Ya don''t want a bag?" [yell sprite]'
+    characterSprite: {fileID: 6564129248582252230, guid: e62cf96b3683bb24aa3c1491c30d51ee, type: 3}
+    hideCharacter: 0
+    background: {fileID: 2447145390109583473, guid: c7320e213f8c23341b766b31e861187c, type: 3}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '"Nope! Thank you, Clark!" [fade out]'
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
-  - speakerName: Bobby
-    sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum."'
+  - speakerName: 
+    sentence: '(...) [black screen]'
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
     playEffect: 0
     shadeOverlay: {fileID: 0}
     clearShade: 0
-  - speakerName: Caleb
-    sentence: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum."'
+  - speakerName: 
+    sentence: ' (Laura steps out past the metal detectors, glancing around the packed
+      parking lot.) [fade back in, parking lot bg1, background ambience of people]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (It's not a large area, that's for sure. Despite that, it shocks Laura
+      --- for how small of a town //Regno Azzurro// is, this store's popular.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (It's a bit jarring. She usually doesn't bother looking at this place
+      twice, and yet... it's probably one of the town's hottest spots.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"..." [show serious sprite]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"..." [show squinting, angrier sprite]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Where the hell did I even park?" [same sprite, mouth open alternative]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '"..." [show squinting, angrier sprite]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura looks to the left, narrowing her tired eyes.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Her car shouldn't be hard to miss --- at least for her. For anyone
+      else, definitely. It's just a beat-up Sedan, like many others...)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Laura shifts the Omunus box to one arm, biting her tongue as she
+      reaches for her pocket.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (...)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: ' "Damn it..." [smaller text to signify she''s muttering under her
+      breath]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (After some brief struggle, she manages to grab her keys. She readjusts
+      the box --- more comfortably now --- and presses down on the panic button.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(BEEP!) [loud font = loud]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Oh, it''s to the --- [if you can cut off this line, as if actually
+      cut off.]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: '"Detective!"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Oh, for god''s sake..." " [smaller text to signify she''s muttering
+      under her breath]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: ' "Hey, Neil... Been a while."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: ' "Hey, Neil... Been a while."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Uh, Omunus, but yeah ---" [if you can cut off this line, as if shes
+      actually cut off.]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: ' "Didn''t think you were the type to play games like those... what''s
+      it called?"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"From My ---"  [if you can cut off this line, as if shes actually
+      cut off.]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: '"Well, whatever. Cece --- you know Cece, my daug ---"   [if you can
+      cut off this line, as if hes actually cut off.]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Yup."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: ' "Well, she''s been obsessed with that game. She has it on her phone,
+      and she''s been begging me to get her one of... those."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura watches the man's gestures --- so dramatic and erratic --- as
+      he continues his spiel.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: '"I''ve been telling her to get a job for it, but she''d rather talk
+      to those little... AI boyfriends.."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Huh."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: ' "Yeah, uh... people have been going crazy for this thing."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Laura glances down at the box in her hands, taking in the box-art
+      of the Omunus console. This is the special edition that comes with ''From My
+      Reality''s'' bonus content. Outfits or something --- she doesn''t know.) [cutscene,
+      remove sprites and make bg the img of the box]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(... Ugh, this is embarassing to hold...) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Especially when you''re nearing forty.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: '[cut back to normal scene]  "They sure have. It seems fun, though.
+      Trust me, if there was a version with just ladies?"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: '"Ha!" [cackle sprite]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: '"My wife would have to pry that thing off me." (smile eyes closed
+      sprite)'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"..."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: '"..."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: '"Don''t uh... don''t tell her I said that, yeah?"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: '"I was just kidding."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Uh, yeah... No worries."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: '"..."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Neil
+    sentence: ' "Well! I should be going, heh. Job doesn''t do itself!" '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: ' "Uh-huh. Well, see you around, Neil."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura watches him chuckle, studying him as he waves and retreats to
+      his car. She glances back down at her keys, hitting the panic button again.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(BEEP!) [loud font = loud]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Her head jolts to the right --- and her legs quickly follow.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (After a bit of walking in the general direction, she found it! Her
+      dirty, crappy Sedan, parked there in all its glory.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(She walks up to her car, opening the passenger door and placing the
+      box on the seat.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (She glances at the box for a second. Should she put the seatbelt *on*
+      the box? It's stupid.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Very stupid.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(...) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(... But also, this thing was expensive.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (No. No, Laura.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Get a grip.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura furrows her brows a bit, her lips jutted out as she decides
+      to shut the car door on the box.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (She walks around the car, opening the door for herself and settling
+      into the driver's seat.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(The detective taps her fingers against the wheel as she boots up
+      her car, getting ready to drive home.)  [fade out into black]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '[a pause before this text if you can! keep the screen black] (The
+      ride home was uneventful. A bit of rain, but nothing note-worthy.)'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(It''s a bit embarrassing for Laura, but... admittedly, she''s excited
+      to use this thing. She glances down at the box, grabbing it as she walks to
+      her doorstep.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '[unlocking door sfx if u can] (Laura unlocks the door, letting out
+      a sigh as she shuts it behind her.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '[fade back in into cutscene of her looking at herself in mirror] (She
+      sets the box on her console table, staring at her own reflection.)'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '[unlocking door sfx if u can] (Laura unlocks the door, letting out
+      a sigh as she shuts it behind her.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(500 Euros. On this. Ugh...) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(It''s worth it, though.)
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: "(Maybe she can see why everyone's gone crazy for this crap.) \r\n"
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(It may be a... *boring* way of passing her free time, but...) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Laura''s determined to at least learn how this game has ''zombie''-fied
+      so many people.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '[fade out into A comic-style shot of different reviews online, with
+      one of the creepy watercolor filter/overlays over it]
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Maybe it''s the romance itself.)
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (It's hard to ignore someone that's coded to be your best fan. Someone
+      who answers everything you need, all the while coddling you like a baby.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Maybe because it''s a safe space? You really can talk about anything
+      with these things --- and usually, they''ll offer a shoulder to cry on.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(And although the shoulder is fake...)
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(It''s still comforting.)
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Whatever it is, 'From My Reality is making people dumber.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (They've become more dependent. It's preying on the vulnerable and
+      the lonely.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '[Black fade-in into mirror shot of Laura glancing at herself.] (...Inspector
+      Russo doesn''t like that.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (She glances down at the box on the nightstand --- so jarring compared
+      to her typically monotonous home.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: ' "I need a knife for this thing."  [smaller text to signify she''s
+      muttering under her breath]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '[black screen timeskip] (It took Laura a long time to set everything
+      up. She had to charge the Omunus, pair the joysticks, set up her account, and
+      then some.)'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(To put it simply, she had to wait around an hour before she got to
+      test ''From My Reality.'') '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(This is it.) '
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (...)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (...)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (..?)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Helloooo?"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Why is this thing still bla ---" [cut this dialogue off, glitch filters
+      for this next scene]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: Loading...
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: According to your Omunus account...
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: You're Laura, right?
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Yep."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: What are your pronouns?
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Uh... she."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: Height?
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"5''7."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: Awesome! Almost done, Laura... select an outfit!
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Uh... the suit."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: Last but not least, Laura...
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: What's your type? Don't be shy!
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Uh..."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Anyone. Uh, anything."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: Not a picky gal, huh?
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: Well, Laura...
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: We're excited to welcome you to...
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '[cutscene of intro scene]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"What the hell..."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Victor
+    sentence: '"From My Reality!"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Victor
+    sentence: ' "Laura! Oh, it''s a pleasure to finally meet you." [smile eyes closed]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: ' "Finally?"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: ' "Well, the more questions you answered, the more excited we got to
+      be your friend!"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Emilia
+    sentence: '"Really, it feels as if we''ve been friends for long. At least for
+      me." [eyes closed smile]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Laura looks around the vast field. It's empty --- like a white void.
+      It's just her and these... people.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Are they even people? To her, not really.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(No matter what they say they feel, the fact is... they don''t feel.)
+      [light horror effects]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Even with that in mind, though... she can''t help but be impressed.)
+      [stronger horror effect]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(This seems real.) [stronger horror effects]
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(...) [strongest horror effect]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(It''s not, though.) [no horror effects anymore]'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: '(Laura narrows her eyes, glancing between the three romancables before
+      her.)
+
+'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Three people in a white void? This is sort of...)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: 
+    sentence: (Underwhelming.)
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: ' "Right. Uh..."'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"Is this the whole game?"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Victor
+    sentence: ' "Oh, no, no... not at all. This is a demo, so... you don''t get to
+      see the pretty sights you see in the real game. There''s a lot less of us here,
+      too. We''re just a sneak~"'
+    characterSprite: {fileID: 0}
+    hideCharacter: 0
+    background: {fileID: 0}
+    playEffect: 0
+    shadeOverlay: {fileID: 0}
+    clearShade: 0
+  - speakerName: Laura
+    sentence: '"A demo? I bought the bundle ---"'
     characterSprite: {fileID: 0}
     hideCharacter: 0
     background: {fileID: 0}
